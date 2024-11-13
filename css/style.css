@@ -78,6 +78,7 @@ h1 {
     border-radius: 1.25rem;
     padding: .625rem .875rem;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
 }
 
 /* ------------
@@ -189,6 +190,37 @@ li p {
     FOOTER
 --------------*/
 
+footer {
+    background-color: #7c69a4;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: .75rem;
+    color: #fff;
+}
+
+footer h4 {
+    padding-top: 1.5625rem;
+    padding-bottom: .625rem;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: .625rem;
+}
+
+footer a {
+    color: #fff;
+    padding: 0 .9375rem;
+}
+
+nav {
+    width: 26.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* --------------
     RESPONSIVE
 ----------------*/
@@ -217,12 +249,12 @@ li p {
         display: inline;
     }
 
-    ul {
+    .recipe-details ul {
         display: flex;
         flex-wrap: wrap;
     }
 
-    li {
+    .recipe-details li {
         width: calc(100% / 3);
     }
 
@@ -246,6 +278,15 @@ li p {
         margin-bottom: .625rem;
     }
 
+    footer ul {
+        justify-content: center;
+        padding-top: .625rem;
+    }
+
+    nav {
+        width: 100%;
+    }
+
 }
 
 /* Viewport DESKTOP da 992px */
@@ -264,7 +305,7 @@ li p {
         width: 30%;
     }
 
-    li {
+    .recipe-details li {
         width: 100%;
     }
 
@@ -279,4 +320,28 @@ li p {
         align-items: center;
     }
 
+   footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   }
+
+   .general-info h4, .general-info p {
+    text-align: left;
+    padding-left: .9375rem;
+    padding-bottom: .9375rem;
+   }
+
+   .general-info, nav {
+    width: 50%;
+   }
+
+   footer a {
+    padding: 8px;
 }
+
+    footer ul {
+        justify-content: flex-end;
+        padding-right: .9375rem;
+    }
