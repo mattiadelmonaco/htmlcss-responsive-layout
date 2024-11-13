@@ -164,6 +164,16 @@ li p {
 
 /* Viewport MOBILE fino a 480px */
 
+/* Viewport MOBILE fino a TABLET 767px */
+
+@media screen and (max-width: 767px) {
+
+    .banner {
+        display: none;
+    }
+
+}
+
 /* Viewport TABLET da 768px */
 
 @media screen and (min-width: 768px) {
