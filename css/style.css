@@ -16,6 +16,15 @@
     TYPOGRAPHY
 ---------------*/
 
+h1 {
+    font-family: "Nerko One", cursive;
+    font-size: 3.125rem;
+    color: #ff9614;
+    text-align: center;
+    text-shadow: 1px 1px 1px #827f7f;
+    padding: .9375rem 1.5625rem;
+}
+
 /* ------------
     BUTTONS
 --------------*/
@@ -23,6 +32,15 @@
 /* ------------
     HEADER
 --------------*/
+
+header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 
 /* ------------
     MAIN
@@ -35,3 +53,20 @@
 /* --------------
     RESPONSIVE
 ----------------*/
+
+/* Viewport MOBILE fino a 480px */
+
+/* Viewport TABLET da 768px */
+
+@media screen and (min-width: 768px) {
+    
+    /* TYPOGRAFY */
+    
+    h1 {
+        text-align: left;
+    }
+
+
+}
+
+/* Viewport MOBILE da 992px */
