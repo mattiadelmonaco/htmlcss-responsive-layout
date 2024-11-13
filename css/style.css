@@ -60,6 +60,20 @@ h2 {
     BUTTONS
 --------------*/
 
+.btn-social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    margin: 1.875rem 0;
+    background-color: #fff;
+    border-radius: 1.25rem;
+    padding: .625rem .875rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
 /* ------------
     HEADER
 --------------*/
@@ -112,6 +126,34 @@ li p {
     font-weight: 300;
 }
 
+/* -----------------
+    SOCIAL BUTTONS
+-------------------*/
+
+.fa-facebook {
+    color: #1a77f3;
+}
+
+.fa-twitter {
+    color: #009eff;
+}
+
+.fa-instagram {
+    color: #dc3da3;
+}
+
+.fa-pinterest {
+    color: #e62222;
+}
+
+.fa-youtube {
+    color: #e62222;
+}
+
+.btn p {
+    display: none;
+}
+
 /* ------------
     FOOTER
 --------------*/
@@ -143,6 +185,14 @@ li p {
         width: calc(100% / 3);
     }
 
+    .btn-social {
+        gap: 1.5625rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
 }
 
 /* Viewport DESKTOP da 992px */
@@ -163,6 +213,17 @@ li p {
 
     li {
         width: 100%;
+    }
+
+    .btn p {
+        display: inline;
+        padding-left: .1875rem;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }
