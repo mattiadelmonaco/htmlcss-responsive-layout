@@ -49,11 +49,17 @@ h1 {
     padding: .9375rem 1.5625rem;
 }
 
-h2 {
-
+.recipe-intro h2 {
     color: #4e3969;
     padding: 1.25rem 0;
     font-size: 1.75rem;
+}
+
+.recipe-presentation h2 {
+    margin-top: 1.875rem;
+    margin-bottom: .75rem;
+    font-size: 1.75rem;
+    font-weight: 500;
 }
 
 /* ------------
@@ -126,9 +132,7 @@ li p {
     font-weight: 300;
 }
 
-/* -----------------
-    SOCIAL BUTTONS
--------------------*/
+/* SOCIAL BUTTONS */
 
 .fa-facebook {
     color: #1a77f3;
@@ -152,6 +156,33 @@ li p {
 
 .btn p {
     display: none;
+}
+
+/* RECIPE PRESENTATION */
+
+.recipe-presentation hr {
+    border: 1px solid #f7972e;
+    width: 15%;
+    margin-bottom: 1.875rem;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recipe .img-fluid {
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 1.25rem;
+}
+
+.recipe p {
+    font-size: .875rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 1.5625rem;
 }
 
 /* ------------
@@ -201,6 +232,18 @@ li p {
 
     .btn {
         width: 100%;
+    }
+
+    .recipe {
+        display: block;
+    }
+
+    .recipe .img-fluid {
+        float: left;
+        width: 40%;
+        margin-right: .625rem;
+        margin-top: .625rem;
+        margin-bottom: .625rem;
     }
 
 }
