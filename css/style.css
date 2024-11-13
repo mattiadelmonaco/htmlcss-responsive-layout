@@ -227,6 +227,32 @@ nav {
 
 /* Viewport MOBILE fino a 480px */
 
+/* Viewport LARGE MOBILE da 576px */
+
+@media screen and (min-width: 576px) {
+
+    .recipe {
+        display: block;
+    }
+    
+    .recipe .img-fluid {
+        float: left;
+        width: 40%;
+        margin-right: .625rem;
+        margin-top: .625rem;
+        margin-bottom: .625rem;
+    }
+
+    .btn-social {
+        gap: 1.5625rem;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+}
+
 /* Viewport MOBILE fino a TABLET 767px */
 
 @media screen and (max-width: 767px) {
