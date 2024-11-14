@@ -365,9 +365,11 @@ nav {
 
    footer a {
     padding: 8px;
-}
+    }
 
     footer ul {
         justify-content: flex-end;
         padding-right: .9375rem;
     }
+
+}
