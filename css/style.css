@@ -87,10 +87,10 @@ h1 {
 
 header {
     background-color: #fff;
-    /* position: sticky;
+    position: sticky;
     top: 0;
     left: 0;
-    z-index: 10; */
+    z-index: 10;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
@@ -318,7 +318,7 @@ nav {
 /* Viewport DESKTOP da 992px */
 
 @media screen and (min-width: 992px) {
-
+    
     .row {
         flex-direction: row;
     }
